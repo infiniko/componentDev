@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.read-the-docs {
+  color: #888;
+}
+.auto-complete {
+  display: flex;
+  flex-direction: column;
+}
+.input-box {
+  width: 400px;
+  padding: 10px;
+}
+.results {
+  display: block;
+  text-align: left;
+  padding: 5px;
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid rgb(136, 126, 126);
+  width: 400px;
+}
+.prod-name:hover {
+  background-color: rgb(68, 105, 99);
+}
