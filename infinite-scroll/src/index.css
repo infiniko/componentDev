@@ -18,3 +18,8 @@ body {
   border: 1px solid rgb(161, 133, 238);
   background-color: aliceblue;
 }
+.row-item {
+  font-size: 32px;
+  padding: 10px;
+  border: 1px solid rgba(145, 129, 160, 0.785);
+}
