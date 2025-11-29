@@ -1,0 +1,26 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+  gap: 2px;
+  margin: 10px;
+  padding: 0px 10px;
+}
+.top-products,
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.products {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
